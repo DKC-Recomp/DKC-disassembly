@@ -4,7 +4,7 @@
 Donkey Kong Country
 ===
 
-This is a WIP decompilation of Donkey Kong Country. 
+This is a WIP disassembly of Donkey Kong Country. 
 
 The purpose of the project is to recreate a source code base for the game from scratch, 
 using information found inside the game along with static and/or dynamic analysis. 
@@ -22,7 +22,7 @@ using information found inside the game along with static and/or dynamic analysi
 The only version currently used is `SNES US v1.0`. 
 It was initially made by using [`snes2asm`](https://github.com/nathancassano/snes2asm) disassembly tool on a SNES US v1.0 ROM copy. 
 
-This decompilation mostly contains game and audio code. Assets are proprietary and copyrighted by Nintendo Ltd, you will not find any of these here.
+This disassembly mostly contains game and audio code. Assets are proprietary and copyrighted by Nintendo Ltd, you will not find any of these here.
 
 >[!NOTE]
 >You can still use `snes2asm` with a legally provided ROM, for data assets such as `graphics`, `tilemaps`, `palettes`, `audio`, `text` and be extracted by specifying a YAML configuration file.
@@ -58,7 +58,7 @@ make # Once done, it will create result in a build/ directory.
 
 ## References
 
-- [`snes2asm`](https://github.com/nathancassano/snes2asm) - tool which initially permitted this decompilation.
+- [`snes2asm`](https://github.com/nathancassano/snes2asm) - tool which initially permitted this disassembly.
 - [`p4plus2/DKC2-disassembly`](https://github.com/p4plus2/DKC2-disassembly) - Disassembly of DKC 2, for docs, code and structure reference.
 - [`Comp/Decomp Country (DKC ROM Hacking Tool)`](https://dreamthreshold.github.io/DKC/CompDecompCountry) - Compresses and decompresses graphics from DKC, and can extract tilesets and palettes
 - [`zeldaret/mm`](https://github.com/zeldaret/mm) - Decompilation of The Legend of Zelda: Majora's Mask, for readme structure reference.
